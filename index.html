@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gen3rate P4assword</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+   <section>
+    <div class="background-section">
+      <video autoplay loop muted src="/video/ocean.mp4" ></video>
+    </div>
+    <div class="box">
+        <div class="conteudo">
+          <h1 id="title">GEN3RATE P4SSWORD</h1>
+          <div id="passwordResult">
+            <h2 id="result" >your password</h2>
+            
+          </div>
+          <div class="copy-text">
+            
+            <button >
+              <i class="fa-regular fa-clone"></i>
+            </button>
+            
+          </div>
+          <div class="number">
+            <label for="cont">Length:</label>
+            <input type="number" id="cont" value="1" min="1" max="30">
+          </div>
+          <div class="options">
+            <input type="checkbox" name="options" id="upper" >
+            <label for="upper">Upperchars</label>
+            <input type="checkbox" name="options" id="lower" >
+            <label for="lower">Lowerchars</label>
+            <input type="checkbox" name="options" id="numb" >
+            <label for="numb">Numberchars</label>
+            <input type="checkbox" name="options" id="symb" >
+            <label for="symb">Symbolchars</label>
+            </div>
+            
+            
+          </div>
+          
+          <button onclick="generate()">Generate your password</button>
+        </div>
+
+    </div>
+   </section>
+  <script src="https://kit.fontawesome.com/0fbb18b88f.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
